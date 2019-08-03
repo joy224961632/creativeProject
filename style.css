@@ -1,0 +1,15 @@
+.img{
+    margin-left: 100px;
+    margin-top:90px;
+}
+.hidden{
+    display: none;
+}
+.text{
+    margin:0;
+    
+    box-sizing: border-box;
+    border:1px BLACK solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
