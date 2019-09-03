@@ -1,4 +1,3 @@
 cd face
-start python clipwindows.py
-start pyhton main.py
-start python test.py
+start dectectface.py
+start Kinectfloor.exe

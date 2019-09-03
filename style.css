@@ -1,15 +1,134 @@
-.img{
-    margin-left: 100px;
-    margin-top:90px;
+body {
+    background-image: url('./assets/img/Upload.png');
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat
 }
-.hidden{
+
+#h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+    margin-left: 100px;
+    margin-top: 80px;
+    border: rgb(255, 0, 0) 5px solid;
+    border-radius: 5px;
+}
+
+/* #dectect {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    font-size: 45px;
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+#dectect-font {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    font-size: 45px;
+    color: rgb(248, 51, 255);
+    font-weight: bold;
+} */
+#text {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.crowd1 {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+#dectect {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.crowd2 {
+    position: absolute;
+    right: 13.45%;
+    top: 28%;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.hidden {
     display: none;
 }
-.text{
-    margin:0;
-    
+
+.text {
+    margin: 0;
+
     box-sizing: border-box;
-    border:1px BLACK solid;
+    border: 1px BLACK solid;
     border-radius: 5px;
     font-size: 20px;
+    color: rgba(0, 0, 0, 0.5)
 }
+
+/* 
+#hight {
+    position: absolute;
+    right: 700px;
+    top: 295px;
+    font-size: 45px;
+    color: rgb(248, 51, 255);
+    font-weight: bold;
+
+}
+
+#text {
+    position: absolute;
+    top: 300px;
+    left: 1230px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 14, 216);
+} */
+
+#time {
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+
+}
+
+.heigth {
+    right: 100px;
+    top: 177px;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+
+
+    background-repeat: no-repeat;
+}
+
+/*
+#footer {
+    position: relative;
+    left: 580px;
+
+    background-image: url("./footer.PNG");
+    background-size: 90%;
+    width: 400px;
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: rgba()
+}
+*/
