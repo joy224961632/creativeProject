@@ -1,5 +1,7 @@
 var time = $("#time").text();
 var tall = $("#text").text();
+var face = $("#face").text();
+console.log(face)
 time = time.substring(0, 19);
 var detect;
 if (tall > 160) {
@@ -15,3 +17,4 @@ $("#time").text(`上次更新時間:${time}`);
 $("#time").removeClass("hidden");
 $("#dectect").text(`他是:${detect}`);
 $("h1").text("高中職創意賽");
+$("#face").text(`他的表情是:${face}`);
