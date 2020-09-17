@@ -1,5 +1,5 @@
 body {
-    background-image: url('./assets/img/Upload.png');
+    background-image: url('./Upload.png');
     background-size: 100%;
     height: 100%;
     width: 100%;
@@ -10,6 +10,8 @@ body {
     font-size: 70px;
     font-weight: bold;
     text-align: center;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .img {
@@ -22,7 +24,7 @@ body {
 #face {
     font-size: 45px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
 }
 
 /* #dectect {
@@ -47,7 +49,7 @@ body {
 #text {
     font-size: 45px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
 }
 
 .crowd1 {
@@ -56,12 +58,13 @@ body {
     top: 25%;
     border: black 1px solid;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 #dectect {
     font-size: 45px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
 }
 
 .crowd2 {
